@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  test repoter</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test repoter</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 07 17:51:21 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>98 seconds (98311 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mar03.Before_test_after_test01.ibanking()'><b>ibanking</b><br>Test class: mar03.Before_test_after_test01<br/>
+<a href="#Output-1240843015" onClick='toggleBox("Output-1240843015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1240843015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1240843015">
+executing i banking<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mar03.Before_test_after_test01@1b1426f4</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.leave()'><b>leave</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-1365790282" onClick='toggleBox("Output-1365790282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1365790282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1365790282">
+exectind leave test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+<tr>
+<td title='mar03.Before_test_after_test01.pbanking()'><b>pbanking</b><br>Test class: mar03.Before_test_after_test01<br/>
+<a href="#Output-255941269" onClick='toggleBox("Output-255941269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-255941269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-255941269">
+executing p banking<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mar03.Before_test_after_test01@1b1426f4</td></tr>
+<tr>
+<td title='mar03.Before_test_after_test01.cbanking()'><b>cbanking</b><br>Test class: mar03.Before_test_after_test01<br/>
+<a href="#Output-1958592872" onClick='toggleBox("Output-1958592872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1958592872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1958592872">
+executing c banking<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mar03.Before_test_after_test01@1b1426f4</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.admin()'><b>admin</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-1247866422" onClick='toggleBox("Output-1247866422", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1247866422" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1247866422">
+exectind admin test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.admin()'><b>admin</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-1862900975" onClick='toggleBox("Output-1862900975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1862900975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1862900975">
+exectind admin test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.admin()'><b>admin</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-1053695609" onClick='toggleBox("Output-1053695609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1053695609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1053695609">
+exectind admin test<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.admin()'><b>admin</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-1788432625" onClick='toggleBox("Output-1788432625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1788432625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1788432625">
+exectind admin test<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.pim()'><b>pim</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-889928215" onClick='toggleBox("Output-889928215", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-889928215" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-889928215">
+exectind pim test<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+<tr>
+<td title='mar03.Test_ng_2.admin()'><b>admin</b><br>Test class: mar03.Test_ng_2<br/>
+<a href="#Output-1374432753" onClick='toggleBox("Output-1374432753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1374432753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374432753">
+exectind admin test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>mar03.Test_ng_2@662b4c69</td></tr>
+</table><p>
+</body>
+</html>

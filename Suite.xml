@@ -1,0 +1,10 @@
+<suite name="tarun">
+<test name="test repoter">
+<classes>
+<class name="mar03.Before_test_after_test01">
+</class>
+<class name="mar03.Test_ng_2">
+</class>
+</classes>
+</test>
+</suite>
